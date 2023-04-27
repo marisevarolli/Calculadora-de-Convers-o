@@ -1,4 +1,5 @@
 unidades = ['bit','byte','KB','MB','GB','TB','PB']
+print ("Bem vindo a calculadora de conversão de unidades de armazenamento!")
 unidadeInicial = input(f"Insira a unidade inicial: ")
 
 while unidadeInicial not in unidades:
