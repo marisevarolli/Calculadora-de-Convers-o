@@ -1,6 +1,14 @@
 unidades = ['bit','byte','KB','MB','GB','TB','PB']
 unidadeInicial = input(f"Insira a unidade inicial: ")
+
+while unidadeInicial not in unidades:
+    unidadeInicial = input(f"Insira a unidade inicial: ")
+
 unidadeFinal = input(f"Insira a unidade final: ")
+
+while unidadeFinal not in unidades:
+    unidadeFinal = input(f"Insira a unidade final: ")
+
 valor = int(input(f"Insira o valor a ser convertido: "))
 posiçãoinicial = 0
 posiçãofinal = 0
