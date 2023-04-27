@@ -6,6 +6,12 @@ posiçãoinicial = 0
 posiçãofinal = 0
 unidadebit = 'bit'
 
+if unidadeInicial == unidadebit:
+    valor3 = valor / 8
+    unidadeInicial = "byte"
+else:
+    valor3 = valor
+
 for i in unidades:
     if i == unidadeInicial:
             posiçãoinicial = unidades.index(i)
