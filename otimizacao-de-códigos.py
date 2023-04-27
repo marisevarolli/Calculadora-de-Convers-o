@@ -21,4 +21,7 @@ variável = posiçãofinal - posiçãoinicial
 valor2= 1024**variável
 valor3= valor/valor2
 
+if unidadeFinal == unidadebit:
+    valor3 = (valor / 1024)*8
+
 print(f"{valor3:.14f}")
