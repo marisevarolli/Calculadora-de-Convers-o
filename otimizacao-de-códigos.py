@@ -5,3 +5,12 @@ valor = int(input(f"Insira o valor a ser convertido: "))
 posiçãoinicial = 0
 posiçãofinal = 0
 unidadebit = 'bit'
+
+for i in unidades:
+    if i == unidadeInicial:
+            posiçãoinicial = unidades.index(i)
+    if i == unidadeFinal:
+            posiçãofinal = unidades.index(i)
+variável = posiçãofinal - posiçãoinicial
+valor2= 1024**variável
+valor3= valor/valor2
